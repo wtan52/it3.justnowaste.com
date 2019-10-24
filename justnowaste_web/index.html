@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Just No Wate - The Future is here</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/world.jpg" type="image/icon type">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/autocomplete.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="js/jquery.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="/">JustNoWaste</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="/Reading.html" class="nav-link">E-Learning</a></li>
+                    <li class="nav-item"><a href="/#impacts-section" class="nav-link">Impacts</a></li>
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Graphs</a>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/f1.html">Industrial Waste Trend</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/test_visual.html">Facilities Ranking</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+
+    <div class="hero-wrap ftco-degree-bg" style="background-image: url('images/slider.jpg');" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text justify-content-center align-items-center">
+                <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-end">
+                    <div class="text text-center">
+                        <h1 class="mb-4">Industrial Waste Management</h1>
+                        <p style="font-size: 22px; color: white;">Let's make our Victoria free from industrial wastes.</p>
+                        <form id="myForm" action="/MapSearch.html#MapSection" method="get" onsubmit="return validate_activity()" class="search-location mt-md-5">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 align-items-end">
+                                    <div class="form-group">
+                                        <div class="ui-widget">
+                                            <div class="form-field">
+                                                <input id="tags" type="text" name="mySuburb" class="form-control" placeholder="Eg:Clayton or 3168" required>
+                                            </div>
+                                            <button type="submit"><span class="ion-ios-search"></span></button>
+                                        </div>
+                                    </div>
+                                    <h6 style="color: white;font-weight: 900; display: none;" id="not-found">Suburb Not Found! Try Again</h6>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mouse">
+            <a href="#" class="mouse-icon">
+                <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+            </a>
+        </div>
+    </div>
+
+    <section class="ftco-section ftco-no-pb" id="impacts-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+                    <span class="subheading">Impacts on the environment</span>
+                    <h2 class="mb-2">Classifications of Emissions and their impacts</h2>
+                </div>
+            </div>
+            <div class="row d-flex">
+                <div class="col-md-4">
+                    <div class="find-place-img_wrap">
+                        <div class="grid">
+                            <figure class="effect-ruby">
+                                <img src="images/find-place1.jpg" class="img-fluid" alt="Land" onclick="location.href='classification.html?target=Total_Land_Waste_Amount#CompanyInfoSection'" />
+                                <figcaption>
+                                    <h5>Land Waste </h5>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row find-img-align">
+                        <div class="col-md-12">
+                            <div class="find-place-img_wrap">
+                                <div class="grid">
+                                    <figure class="effect-ruby">
+                                        <img src="images/airwaste.jpg" class="img-fluid" alt="img13" onclick="location.href='classification.html?target=Total_Air_Fugitive_Waste_Amount#CompanyInfoSection'" />
+                                        <figcaption>
+                                            <h5>Air Fugitive Waste</h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="find-place-img_wrap">
+                                <div class="grid">
+                                    <figure class="effect-ruby">
+                                        <img src="images/airpoint.jpg" class="img-fluid" alt="img13" onclick="location.href='classification.html?target=Total_Air_Point_Waste_Amount#CompanyInfoSection'" />
+                                        <figcaption>
+                                            <h5>Air Point Waste </h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row find-img-align">
+                        <div class="col-md-12">
+                            <div class="find-place-img_wrap">
+                                <div class="grid">
+                                    <figure class="effect-ruby">
+                                        <img src="images/find-place4.jpg" class="img-fluid" alt="img13" onclick="location.href='classification.html?target=Total_Air_Waste_Amount#CompanyInfoSection'" />
+                                        <figcaption>
+                                            <h5>Air Waste </h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="find-place-img_wrap">
+                                <div class="grid">
+                                    <figure class="effect-ruby">
+                                        <img src="images/find-place2.jpg" class="img-fluid" alt="img13" onclick="location.href='classification.html?target=Total_Water_Waste_Amount#CompanyInfoSection'" />
+                                        <figcaption>
+                                            <h5>Water Waste </h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="pb_footer bg-light" role="contentinfo">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <ul class="list-inline">
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p class="pb_font-14">&copy; 2019. All Rights Reserved. <br>
+                        <p>Project created by <span style="color:#e86ed0">JustS</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+    <!--    <script type="text/javascript" src="/js/test_suburb.js"></script>-->
+    <!--<script src="js/jquery.min.js"></script>-->
+    <!--    <script src="js/jquery-migrate-3.0.1.min.js"></script>-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

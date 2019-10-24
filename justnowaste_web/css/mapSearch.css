@@ -1,0 +1,80 @@
+#map {
+    height: 75vh;
+    width: 100%;
+    top: 5%;
+    bottom: 5%;
+}
+
+table thead {
+    display: block;
+}
+
+table tbody {
+    height: 300px;
+    width: 100%;
+    overflow-y: auto;
+    display: block;
+}
+
+th {
+    text-align: justify-all;
+    position: relative;
+    left: 8vw;
+}
+
+.pb_form_v1 {
+    padding: 25px;
+    margin-top: 15%;
+}
+
+
+td#comp-name {
+    width: 100vw;
+}
+
+@media (max-width: 991px)
+.pb_form_v1 {
+    padding: 30px;
+    width: 93vw;
+}
+
+button#compare {
+position: relative;
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    position: inherit;
+}
+
+#table-containers {
+    margin-left: 30vw;
+    margin-right: 18vw;
+    margin-top: 5%;
+}
+
+
+@media only screen and (max-width: 425px),
+(min-device-width: 200px) and (max-device-width: 425px) {
+
+#table-containers {
+    margin-left: 0vw;
+    margin-right: 18vw;
+    margin-top: 5%;
+}
+    
+    section#emission_compare {
+    padding-top: 120%;
+}
+    
+/*
+span#main-activites {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+*/
+    
+}
